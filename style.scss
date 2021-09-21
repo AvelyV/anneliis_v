@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Geo', sans-serif;;
+    scroll-behavior: smooth;
+    color: black;
+}
+
+body {
+	text-align: center;
+}
+
+header {
+	height: 90px;
+	background: #fff2db;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+    //navigation bar
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        flex: wrap;
+        max-width: 1024px;
+        margin: 0 auto;
+        //social media links
+        .logo {
+            width: 30%;
+            line-height: 100px;
+            a {
+                margin: auto 20px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }    
+        }
+    }
+    //menu
+    nav {
+        line-height: 100px;
+    a {
+        text-decoration: none;
+        letter-spacing: 4px;
+        font-size: 20px;
+        margin: 0 10px;
+        color: black;
+        }    
+    }
+}
+//banner
+.p1 {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 90px;
+	background-image: url(../img/flowers.jpg);
+	background-size: cover;
+	background-position: center;
+    h2 {
+        padding-top: 8%;
+        font-size: 70px;
+        text-transform: uppercase;
+        color: #ffa200;
+    }
+}
+//text areas
+.content {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #fff2db;
+    h2 {
+        letter-spacing: 4px;
+        padding-top: 30px;
+        font-size: 40px;
+        margin: 0;
+    }
+    p {
+        padding: 2% 0px;;
+        line-height: 30px;
+    }
+}
+//parallex images
+.p2, .p3{
+    background-image: url(../img/flowers.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p3 {
+    background-position: bottom;
+}
+
+#about, #contact {
+    max-width: 1024px;
+    margin: auto;
+}
+//footer
+footer {
+    margin: auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: flex-end;
+    .logo {
+        width: 30%;
+        line-height: 100px;
+        a {
+            margin: auto 20px;
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }    
+    }
+}
